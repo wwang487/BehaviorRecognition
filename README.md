@@ -17,6 +17,8 @@ Please download them and copy them to data/pretrained_model for both species and
 
 1. Follow the instruction of labelImg to label your image dataset into PASVOC format: https://github.com/HumanSignal/labelImg
 
+2. Use **XMLmodifying.py** in **SideFuc/** folder to modify the xml file marked by labelImg. Please specify the xml_path parameter before running this function.
+
 ### Code Moficiation
 
 1. Adjust labels for species and behaviors: open **SpeModel/lib/datasets/pascal_voc.py** and **BehaviorModel/lib/datasets/pascal_voc.py**, change **self.class** to match your case. 
