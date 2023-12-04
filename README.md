@@ -1,7 +1,7 @@
 # BehaviorRecognition
-This is the respository for the two-step Faster R-CNN model to identify behaviors of wild animals.
+This is the respository for the two-step Faster R-CNN model to identify behaviors of wild animals. 
 
-## Preparation
+## Installation
 1. The pretrained model is placed in: https://drive.google.com/drive/folders/1EOmhEn5Ry-97LNm5e3ewrZYmgzALvHCx?usp=sharing
 Please download them and copy them to data/pretrained_model for both species and behavior models.
 
@@ -9,4 +9,14 @@ Please download them and copy them to data/pretrained_model for both species and
 
 3. Open terminal in BehaviorRecognition/SpeModel/lib, type **python setup.py build develop** in the terminal to set up the required environment.
 
-4. 
+## Training
+
+### Data Preparation
+
+## Acknowledgement
+
+The basic Faster R-CNN model without two-step settings is built by jwyang under the following link:
+
+https://github.com/jwyang/faster-rcnn.pytorch/tree/pytorch-1.0
+
+Our model uses their work as the starting point, and refined their model to a two-step animal behavior recognition model, which first identify animal species, then identify animal behavior patterns.
