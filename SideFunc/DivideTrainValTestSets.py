@@ -17,11 +17,8 @@ def ConverJSON2XML(json_folder, json_file, xml_folder, xml_file):
     with open(json_folder + json_file, "r") as j:
         data = JS.load(json_file)
 
-def CheckIfDirExist(path):
-    if os.path.exists(f'{path}'):
-        pass
-    else:
-        os.mkdir(f'{path}')
+def CheckIfDirExist(paths):
+    os.makedirs(paths, exist_ok = True)
 
 def getListWithCorrectMarker(mark_folder, mark_suffix):
     all_imgs = []
