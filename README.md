@@ -13,6 +13,16 @@ Please download them and copy them to data/pretrained_model for both species and
 
 ### Data Preparation
 
+## Testing
+
+## Demo
+
+### Trained Model
+
+The trained model for species identification is placed in: https://drive.google.com/drive/folders/1Zr-SF5iy1rAZlzbXREl7Ln0vQdns6C1i?usp=sharing
+
+The trained model for behavior pattern recognition is placed in: https://drive.google.com/drive/folders/1KC0sT5nDM4h1OAGXaApbQBz6s30qPfzO?usp=sharing
+
 ## Acknowledgement
 
 The basic Faster R-CNN model without two-step settings is built by jwyang under the following link:
