@@ -13,6 +13,10 @@ Please download them and copy them to data/pretrained_model for both species and
 
 ### Data Preparation
 
+### Code Moficiation
+
+1. Adjust labels for species and behaviors: open **SpeModel/lib/datasets/pascal_voc.py** and **BehaviorModel/lib/datasets/pascal_voc.py**, change **self.class** to match your case. 
+
 ## Testing
 
 ## Demo
